@@ -1,0 +1,28 @@
+{
+  "name": "react-backend",
+  "version": "0.0.0",
+  "private": true,
+  "engines": { 
+    "node": "^6.9", 
+    "yarn": "^0.21" 
+  },
+  "scripts": {
+    "start": "node app.js &&& PORT=3001 node ./bin/www",
+    "heroku-postbuild": "cd client/ && npm install && yarn install && npm run build"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "client/node_modules"
+  ],
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "child-process-promise": "^2.2.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "request": "^2.83.0",
+    "serve-favicon": "~2.4.5"
+  }
+}
