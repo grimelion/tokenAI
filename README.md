@@ -10,14 +10,14 @@ npm start
 # How to deploy?
 
 1. Install Heroku:
-1.1. MacOS: `brew install heroku/brew/heroku`;
-1.2. Windows: 
-1.2.1. x32: `https://cli-assets.heroku.com/heroku-cli/channels/stable/heroku-cli-x86.exe`;
-1.2.2. x64: `https://cli-assets.heroku.com/heroku-cli/channels/stable/heroku-cli-x64.exe`;
-1.3. Linux:
-1.3.1. Snap: `sudo snap install heroku`
-1.3.2. Debian/Ubuntu: `wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh`
-1.4 npm: `npm install -g heroku-cli`
+  - MacOS: `brew install heroku/brew/heroku`;
+  - Windows: 
+    - x32: `https://cli-assets.heroku.com/heroku-cli/channels/stable/heroku-cli-x86.exe`;
+    - x64: `https://cli-assets.heroku.com/heroku-cli/channels/stable/heroku-cli-x64.exe`;
+  - Linux:
+    - Snap: `sudo snap install heroku`
+    - Debian/Ubuntu: `wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh`
+  - npm: `npm install -g heroku-cli`
 2. Clone repo: `git clone https://github.com/ilana/tokenAI`
 3. Go to your directory: `cd tokenAI`
 4. Login into Heroku: `heroku login`
